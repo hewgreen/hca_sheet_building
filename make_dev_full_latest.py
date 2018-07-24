@@ -58,7 +58,7 @@ def main(args):
 
 
 
-	print('\nMatt: git pull ingest-client locally for most up to date version!!!\n')
+	print('\nMake sure you have git pulled ingest-client locally for most up to date version!!!\n')
 
 	print('\n\nUsing schemas:\n')
 	# print(latest_schemas)
