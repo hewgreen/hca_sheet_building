@@ -1,0 +1,13 @@
+Old code is obsoleted in ops (archive directory)
+
+make_dev_full_latest.py
+
+Outputs full yams and full sheet from dev latest. If new types are created these will need to be manually added.
+
+Uses ingest-client locally I used `pip3 install -e ~/Google\ Drive/ingest-client/` this is install in the dev mode. Go to /Users/hewgreen/Google Drive/ingest-client and pull for latest build before using these scripts. Note that this could be pip installed when ingest-cli is fixed.
+
+Working now `pip freeze` gives
+
+hca==3.4.5
+hca-cli==0.1.0
+-e git+https://github.com/HumanCellAtlas/ingest-client@b5ba2a63a47dafe5f15611ce0b6b1acac7c8def4#egg=hca_ingest
